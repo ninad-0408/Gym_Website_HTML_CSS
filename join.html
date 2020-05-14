@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <link rel="stylesheet" href="join.css">
+</head>
+
+<body>
+    <div id="logo"><img src="img/Logo.jpg"></div>
+    <div class="navigate">
+        <ul>
+            <li class="buttonleft"><a href="home.html">HOME</a></li>
+            <li class="buttonleft"><a href="join.html" class="active">JOIN</a></li>
+            <li class="buttonleft"><a href="#">BMI CALCULATOR</a></li>
+            <li class="buttonleft"><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <form action="backend.js" class="form">
+            <div class="element">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="element">
+                <label for="age">Age: </label>
+                <input type="number" name="age" id="age">
+            </div>
+            <div class="element">
+                <label for="gender">Gender: </label>
+                Male: <input type="radio" name="gender" id="gender" checked>  Female: <input type="radio" name="gender" id="gender">
+            </div>
+            <div class="element">
+                <label for="phone">Phone: </label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+            <div class="element">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

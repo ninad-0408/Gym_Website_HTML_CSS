@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('img/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.navigate{
+    background-color: orangered;
+    border-radius: 33px;
+    height: 40px;
+    width: 1380px;
+    position: relative;
+    left: 117px;
+    top: -45px;
+}
+.navigate ul{
+    list-style: none;
+}
+
+.navigate ul a{
+    text-decoration: none;
+    color: white;
+}
+.navigate ul a:hover{
+    color: #410000;
+}
+.buttonleft{
+    float: left;
+    margin: 10px 25px;
+    margin-top: 3px;
+    font-size: 21px;
+    font-family: cursive;
+
+}
+.navigate ul a.active{
+    text-decoration: underline;
+    color: #410000;
+}
+#logo{
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 11px;
+}
+
+#logo img{
+    height: 72px;
+    width: 127px;
+    border-radius: 148px;
+}
+.main{
+    color: white;
+    margin-top: 10px;
+    font-family: cursive;
+}
+
+#g2 img, #g1 img, #g3 img, #g4 img{
+    height: 400px;
+    width: 613px;
+    align-self: center;
+    border-radius: 64px;
+    border-color: #017fc8a3;
+    border-width: 4px;
+    border-style: solid;
+   
+}
+.places h2{
+    position: relative;
+    left: 398px;
+    bottom: 413px;
+    display: inline-block;
+    align-self: center;
+   
+}
+.places{
+    border-width: 4px;
+    border-color: red;
+    display: inline-block;
+    height: 100px;
+    box-sizing: border-box;
+
+    
+}
+#g2{
+    position: relative;
+    left: -15px;
+    top: 1px;
+}
+#g3 {
+    position: relative;
+    left: -50px;
+    top: 32px;
+
+}
+#g4{
+    position: relative;
+    left: -40px;
+    top: 32px;
+}
